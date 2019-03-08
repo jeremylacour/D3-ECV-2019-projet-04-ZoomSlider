@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ba_pl design</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body class="funnybackground">
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+		<img src="images/animate_logo3.gif" alt="bapl logo animated" />
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+
+						<div class="preview">
+							<img src="images/wyld_logo.png" alt="Logo Wyld records" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Music Label</span>Wyld Records</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/convergences_logo.png" alt="Logo of the Convergences Festival" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Music Festival</span>Convergences</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/bapl_sign_blc.png" alt="BAPL logo photo" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Tees and<br>Hoodies Brand</span>bapl</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/illu_picto.png" alt="Illustration of a landscape with lines" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Posters and Frames</span>Illustrations</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/bapl_type.png" alt="Red panda photo" />
+						<div class="preview rounded">
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Design and creation</span>Typography</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/wyld_photo.jpg" alt="Wyld festival graphism photo" />
+				<div class="content__item-inner">
+					<h2>Wyld</h2>
+					<h3>Music Festival and Record Label</h3>
+					<p>Initialy called "Chill Masters", Wyld is a music label based in Toulouse, i've worked for them since June 2018.
+					The particularity of this label is that they produce artists from all over the world, with eclectic styles like rock, indie or techno.
+				  It's a small structure, with adorable people who loves music and want to share their passion.</p>
+					<p><a href="https://wyldrecords.com/?fbclid=IwAR2LswuFj46S9lNT6smmUVZN1IhjTTXgnk-PJgsA2Kz97uvX-OHk8cz0Btc">Learn more about Wyld and the festival &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/photo_convergences" alt="Aerial photo of the collaborators of Convergences" />
+				<div class="content__item-inner">
+					<h2>Convergences</h2>
+					<h3>A festival rised up by students</h3>
+					<p>Convergences is a festival i've worked for in 2015, it was an initiative from students of the Kedge business school, the architechture school of Bordeaux (ENSAP) and some students of my school. My work was directed to the creation of social media contents (gifs, artists announcement etc ..). It was an amazing experience, it was at this time that I realize that I really want to work as a graphist, and create for events like this.<p><a href="http://convergencesfestival.com/?fbclid=IwAR0Zw75fvN3lwKGNdFM8zbYhUt5dsDJmLDgV2b_0iuevtoCjsn7gECBbdhE">Learn more about the Festival &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/bapl_tshirt.jpg" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>ba_pl</h2>
+					<h3>A space for expression</h3>
+					<p>At the beginning bapl was an alias with wich I sign my work, and step by step I use it as a mark, to finally create a brand. It's not really to earn money, more to create and associate this work to a universe, create a global thing.</p>
+					<p><a href="https://www.bapl.com/">Learn more about ba_pl &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/illu_photo.jpg" alt="iMac Content" />
+				<div class="content__item-inner">
+					<h2>Illustrations</h2>
+					<h3>Work as passion</h3>
+					<p>My passion for drawing was early in my childhood, it was more a hobby in the beginning, and a passion years after years. I begin to draw comics strips like Kid Paddle, and this inspired me a lot the style I have today. I love video games, music and skate, so a lot of my illustration are about those themes and inspiration. I also love Japan style, americans comics, in summary all the things that built me in the 90's.</p>
+					<p><a href="https://www.bapl.com/illustrations/">Learn more about my illustrations &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/typo_photo.png" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Typography</h2>
+					<h3>Letter love</h3>
+					<p>I think I'm interested in the typography since i'm child, I always was particulary attentive with the style of my letters when I wrote my lessons a school, and this passion was fastly transformed into a research of particular fonts, readable or not, I experiment very much to learn a lot.</p>
+					<p><a href="https://www.bapl.com/">Learn more about bapl &xrarr;</a></p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
